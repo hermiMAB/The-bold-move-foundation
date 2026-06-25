@@ -25,8 +25,9 @@ a { text-decoration: none; }
 
 .navbar-custom .nav-link {
   color: white !important;
-  font-weight: 500;
-  padding: 0.6rem 1.1rem !important;
+  font-weight: 600;
+  padding: 0.5rem 1.05rem !important;
+  font-size: 1.05rem;
   transition: color 0.25s ease;
 }
 
@@ -97,26 +98,30 @@ a { text-decoration: none; }
       content: '';
       position: absolute;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0, 0, 0, 0.55);
+      background: rgba(0, 0, 0, 0.68);
       z-index: 1;
     }
     .hero-content {
       position: relative;
       z-index: 2;
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
       animation: fadeInUp 1s ease-out;
     }
     .hero h1 {
-      font-size: 4.5rem;
+      font-size: 3.2rem;
       font-weight: 700;
       color: #F4CE6B;
-      text-shadow: 3px 3px 12px rgba(0,0,0,0.8);
+      text-shadow: 3px 3px 12px rgba(0,0,0,0.95);
       animation: fadeInUp 1s ease-out;
     }
     .hero .lead {
       max-width: 720px;
       margin: 0 auto 2.5rem;
       font-size: 1.4rem;
-      color: #e0e0e0;
+      color: #f5f5f5;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.95);
       animation: fadeInUp 1s ease-out 0.2s both;
     }
     .hero .btn-group-custom {
@@ -127,7 +132,7 @@ a { text-decoration: none; }
       to { opacity: 1; transform: translateY(0); }
     }
     @media (max-width: 768px) {
-      .hero h1 { font-size: 3.2rem; }
+      .hero h1 { font-size: 2.2rem; }
       .hero .lead { font-size: 1.2rem; }
     }
     .icon-large {
@@ -379,7 +384,7 @@ a { text-decoration: none; }
       margin-bottom: 1rem;
       display: block;
     }
-    .partner-card h4 {
+    .partner-card h3 {
       color: #f8f7f7;
       margin-bottom: 1rem;
       font-weight: 600;
@@ -463,3 +468,139 @@ a { text-decoration: none; }
     .contact-detail a:hover {
       color: #e0b04a;
     }
+
+/* Custom Navbar and Logo Lockup Tagline Styles */
+.brand-name {
+  line-height: 1.1;
+}
+
+.brand-tagline {
+  color: #c0c0c0 !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover .brand-tagline {
+  color: #F4CE6B !important;
+}
+
+/* Dropdown Menu Enhancements */
+.dropdown-menu-dark {
+  background-color: #1e1e1e !important;
+  border: 1px solid #444;
+}
+
+.dropdown-item {
+  color: #e0e0e0 !important;
+  transition: all 0.25s ease;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(244, 206, 107, 0.15) !important;
+  color: #F4CE6B !important;
+}
+
+/* Responsive adjustment for extra small screens */
+@media (max-width: 420px) {
+  .brand-name {
+    font-size: 1.15rem !important;
+  }
+  .brand-tagline {
+    font-size: 0.65rem !important;
+    letter-spacing: 0.8px !important;
+  }
+  .navbar-brand img {
+    width: 40px !important;
+    margin-right: 0.5rem !important;
+  }
+}
+
+/* Programs Hero Styles */
+.programs-hero {
+  position: relative;
+  min-height: 40vh;
+  background: linear-gradient(135deg, #1a2a4a 0%, #0d1b2a 100%);
+  border-bottom: 3px solid #F4CE6B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  padding-top: 130px !important;
+}
+
+.programs-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #F4CE6B;
+  margin-bottom: 1rem;
+}
+
+/* Dropdown hover on desktop */
+@media (min-width: 992px) {
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    animation: fadeIn 0.2s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Intermediate screens nav link padding to prevent wrapping */
+@media (min-width: 992px) and (max-width: 1240px) {
+  .navbar-custom .nav-link {
+    padding: 0.4rem 0.65rem !important;
+    font-size: 0.95rem !important;
+  }
+  .brand-name {
+    font-size: 1.1rem !important;
+  }
+  .brand-tagline {
+    font-size: 0.65rem !important;
+    letter-spacing: 0.8px !important;
+  }
+  .navbar-brand img {
+    width: 42px !important;
+    margin-right: 0.5rem !important;
+  }
+}
+
+/* Standardized hero padding to prevent fixed navbar overlap */
+.about-hero, .focus-hero, .serve-hero, .partner-hero, .contact-hero, .programs-hero {
+  padding-top: 135px !important;
+  padding-bottom: 65px !important;
+}
+
+/* Outline button style for hierarchy and contrast */
+.btn-outline-custom {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.75rem 1.8rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-outline-custom:hover {
+  background-color: #fff;
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+}
+
+/* Navbar button font sizing override */
+.navbar-custom .btn-custom {
+  font-size: 1.05rem !important;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem !important;
+}
+
+
+

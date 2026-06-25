@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Focus Areas - The Bold Move Foundation</title>
-  <meta name="description" content="The Bold Move Foundation is a Kenyan non-profit equipping youth, women, and persons with disabilities with entrepreneurial, digital, and employable skills.">
+  <title>Our Programs - The Bold Move Foundation</title>
+  <meta name="description" content="The Bold Move Foundation offers practical skills training programs in Kenya. Discover Jasiri Digital and other economic empowerment programs.">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,6 +15,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/main.css">
+  
+  <style>
+    .program-card {
+      background-color: #222;
+      border: 1px solid #444;
+      border-radius: 16px;
+      padding: 3rem;
+      border-left: 5px solid #F4CE6B;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .program-card:hover {
+      transform: translateY(-5px);
+      border-color: #F4CE6B;
+    }
+    .program-icon {
+      font-size: 4rem;
+      color: #F4CE6B;
+    }
+    .cohort-badge {
+      display: inline-block;
+      background-color: rgba(244, 206, 107, 0.15);
+      color: #F4CE6B;
+      border: 1px solid rgba(244, 206, 107, 0.3);
+      border-radius: 20px;
+      padding: 0.25rem 1rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .btn-action-group .btn {
+      padding: 0.85rem 1.5rem;
+      font-weight: 600;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
 
@@ -28,11 +63,9 @@
         <span class="brand-tagline text-white" style="font-size: 0.72rem; font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase; margin-top: 2px;">Start Small, Move Bold</span>
       </div>
     </a>
-
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarCollapse" aria-controls="mainNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="mainNavbarCollapse">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
         <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li>
@@ -69,77 +102,69 @@
 <main>
 
 <!-- Hero -->
-<section class="focus-hero">
-  <div class="focus-hero-content">
-    <h1>Our Focus Areas</h1>
+<section class="programs-hero">
+  <div class="container text-center">
+    <h1>Our Programs</h1>
+    <p class="lead mx-auto text-light" style="max-width: 800px; color: #e0e0e0 !important;">
+      Empowering youth, women, and persons with disabilities across Kenya with practical, job-ready training programs.
+    </p>
   </div>
 </section>
 
-<!-- Main Content -->
-<section class="focus-section">
+<!-- Main Programs Section -->
+<section class="py-5" style="background-color: #181818;">
   <div class="container">
-    <p class="lead text-center mx-auto" style="max-width: 800px; color: #e0e0e0; margin-bottom: 2rem;">
-      The BMF's programmes are built around six interconnected pillars — each designed to address a specific barrier that keeps youth, women, and persons with disabilities from achieving economic independence. Our training is practical, market-relevant, and delivered with mentorship at its core.
-    </p>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        
+        <!-- Jasiri Digital Program -->
+        <div class="program-card text-light mb-5">
+          <div class="row align-items-center g-4">
+            <div class="col-md-2 text-center text-md-start">
+              <i aria-hidden="true" class="bi bi-laptop program-icon"></i>
+            </div>
+            <div class="col-md-10">
+              <div class="d-flex align-items-center gap-3 mb-3 flex-wrap">
+                <h2 class="text-warning mb-0 fw-bold">Jasiri Digital</h2>
+                <span class="cohort-badge">Cohort 1</span>
+                <span class="badge bg-warning text-dark px-3 py-2">Active — Enrolling Now</span>
+              </div>
+              
+              <p class="lead mb-4">
+                Jasiri Digital is our flagship digital skills training program, designed to make technology accessible, relevant, and easy to apply in everyday life, learning, employment, and entrepreneurship.
+              </p>
+              
+              <p style="color: #d0d0d0; line-height: 1.8;">
+                This program is tailored particularly for participants in underserved communities with limited prior digital exposure. We equip our participants with practical, job-ready skills in computer literacy, internet use, digital communication, productivity tools, online safety, social media for business, mobile money and digital financial services, and the effective use of artificial intelligence (AI) tools.
+              </p>
 
-    <div class="focus-note text-light mx-auto mb-5" style="max-width: 800px;">
-      <i aria-hidden="true" class="bi bi-info-circle-fill text-warning me-2"></i>
-      Our programmes are now <strong>Active — Enrolling Now</strong>. We are committed to transparency, high-quality delivery, and tangible outcomes for our participants.
-    </div>
+              <!-- Cohort Details -->
+              <div class="bg-dark p-4 rounded-3 border border-secondary mt-4 mb-4">
+                <h4 class="text-warning fw-bold h5 mb-3"><i class="bi bi-info-circle-fill me-2"></i>Cohort 1 Information</h4>
+                <div class="row g-3 text-light">
+                  <div class="col-md-4">
+                    <strong><i class="bi bi-calendar-event text-warning me-2"></i>Duration:</strong> 12 Weeks (Hybrid)
+                  </div>
+                  <div class="col-md-4">
+                    <strong><i class="bi bi-geo-alt text-warning me-2"></i>Location:</strong> Nairobi, Kenya
+                  </div>
+                  <div class="col-md-4">
+                    <strong><i class="bi bi-people text-warning me-2"></i>Status:</strong> Open for applications
+                  </div>
+                </div>
+              </div>
 
-    <div class="row g-4 justify-content-center">
-      <div class="col-md-6 col-lg-4">
-        <div class="focus-card text-light">
-          <i aria-hidden="true" class="bi bi-lightbulb-fill"></i>
-          <h2 class="card-title text-warning h4">Entrepreneurial Skills Training</h2>
-          <p>Many Kenyans have the drive to start a business but lack the foundational skills to turn ideas into sustainable ventures. Our entrepreneurship training equips participants with business planning, market research, idea validation, financial management, and startup fundamentals — giving them the tools to launch, grow, and sustain income-generating enterprises. We pair classroom learning with real-world mentorship from experienced entrepreneurs.</p>
-          <span class="badge bg-warning text-dark mt-3">Active — Enrolling Now</span>
-        </div>
-      </div>
-      
-      <div class="col-md-6 col-lg-4">
-        <div class="focus-card text-light">
-          <i aria-hidden="true" class="bi bi-briefcase-fill"></i>
-          <h2 class="card-title text-warning h4">Employability & Career Development</h2>
-          <p>A gap between formal education and workplace readiness keeps many qualified young people unemployed. Our employability programme bridges that gap through training in CV writing, interview preparation, professional communication, and workplace conduct. We connect participants with internship opportunities, career mentors, and employer networks — making the transition from training to employment as direct as possible.</p>
-          <span class="badge bg-warning text-dark mt-3">Active — Enrolling Now</span>
-        </div>
-      </div>
+              <!-- Required Action Buttons -->
+              <div class="d-flex flex-wrap gap-3 btn-action-group mt-4">
+                <a href="contact.html?subject=Programme+Information" class="btn btn-custom px-4">Apply Here</a>
+                <a href="contact.html?subject=Programme+Information" class="btn btn-outline-warning px-4">Refer a Candidate</a>
+                <a href="contact.html?subject=Partnership+Inquiry" class="btn btn-outline-light px-4">Partner With This Cohort</a>
+              </div>
 
-      <div class="col-md-6 col-lg-4">
-        <div class="focus-card text-light">
-          <i aria-hidden="true" class="bi bi-laptop-fill"></i>
-          <h2 class="card-title text-warning h4">Digital Skills</h2>
-          <p>Digital competence is no longer optional—it is a prerequisite for participation in Kenya’s modern economy. Our digital skills programme equips participants with practical, job-ready skills in computer literacy, internet use, digital communication, productivity tools, online safety, social media for business, mobile money and digital financial services, and the effective use of artificial intelligence (AI) tools. We make technology accessible, relevant, and easy to apply in everyday life, learning, employment, and entrepreneurship, particularly for participants in underserved communities with limited prior exposure.</p>
-          <span class="badge bg-warning text-dark mt-3">Active — Enrolling Now</span>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="col-md-6 col-lg-4">
-        <div class="focus-card text-light">
-          <i aria-hidden="true" class="bi bi-bank"></i>
-          <h2 class="card-title text-warning h4">Financial Literacy & Independence</h2>
-          <p>Without financial knowledge, income is rarely enough. Our financial literacy programme trains participants in personal budgeting, savings discipline, understanding credit, accessing financial products, and planning for long-term financial security. For entrepreneurs, we extend this to business financial management and investor readiness — building the money confidence that sustainable independence requires.</p>
-          <span class="badge bg-warning text-dark mt-3">Active — Enrolling Now</span>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="focus-card text-light">
-          <i aria-hidden="true" class="bi bi-book-fill"></i>
-          <h2 class="card-title text-warning h4">Access to Quality Education</h2>
-          <p>Education is the foundation of every bold move. We work to bridge the education gap for underserved communities by connecting participants to learning resources, scholarship opportunities, structured educational pathways, and digital learning platforms. Whether supporting a young person completing secondary school or a woman re-entering education after a gap, we believe equitable access to quality learning changes life trajectories.</p>
-          <span class="badge bg-warning text-dark mt-3">Active — Enrolling Now</span>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="focus-card text-light">
-          <i aria-hidden="true" class="bi bi-person-hearts"></i>
-          <h2 class="card-title text-warning h4">Mentorship</h2>
-          <p>Mentorship is the bridge between training and long-term success. We pair participants with experienced professionals, entrepreneurs, and leaders who offer guidance, industry insights, and career support. Through structured mentorship, we help youth, women, and persons with disabilities build the confidence, networks, and accountability required to navigate challenges, make bold career choices, and sustain their economic independence.</p>
-          <span class="badge bg-warning text-dark mt-3">Active — Enrolling Now</span>
-        </div>
       </div>
     </div>
   </div>

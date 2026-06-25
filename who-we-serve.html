@@ -21,21 +21,44 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top shadow">
   <div class="container-fluid px-4 px-md-5">
-    <a class="navbar-brand d-flex align-items-center fw-bold fs-4" href="index.html">
-      <img src="images/bmf-logo.webp" alt="Logo" width="50" class="me-3">
-      The Bold Move Foundation
+    <a class="navbar-brand d-flex align-items-center fw-bold text-decoration-none" href="index.html">
+      <img src="images/bmf-logo.webp" alt="The Bold Move Foundation" width="50" class="me-3">
+      <div class="d-flex flex-column lh-1">
+        <span class="fs-4 brand-name" style="color: #F4CE6B; font-weight: 700;">The Bold Move Foundation</span>
+        <span class="brand-tagline text-white" style="font-size: 0.72rem; font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase; margin-top: 2px;">Start Small, Move Bold</span>
+      </div>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarCollapse" aria-controls="mainNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mainNavbarCollapse">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
         <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link px-3" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link px-3" href="focus-areas.html">Our Focus Areas</a></li>
-        <li class="nav-item"><a class="nav-link active px-3" href="who-we-serve.html">Who We Serve</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle px-3" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Us
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark border-secondary" aria-labelledby="aboutDropdown">
+            <li><a class="dropdown-item py-2" href="about.html">About Us Overview</a></li>
+            <li><a class="dropdown-item py-2" href="about.html#team">Our Team</a></li>
+            <li><a class="dropdown-item py-2" href="about.html#board">Our Board</a></li>
+            <li><a class="dropdown-item py-2" href="about.html#partners">Our Partners</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active px-3" href="#" id="whatWeDoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            What We Do
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark border-secondary" aria-labelledby="whatWeDoDropdown">
+            <li><a class="dropdown-item py-2" href="focus-areas.html">Our Focus Areas</a></li>
+            <li><a class="dropdown-item py-2" href="programs.html">Programs</a></li>
+            <li><a class="dropdown-item py-2" href="who-we-serve.html">Who We Serve</a></li>
+          </ul>
+        </li>
         <li class="nav-item"><a class="nav-link px-3" href="partner.html">Partner With Us</a></li>
-        <li class="nav-item"><a class="nav-link px-3" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn btn-custom btn-sm px-3 py-2 mt-2 mt-lg-0 d-inline-block" href="contact.html">Support Us</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -57,10 +80,10 @@
     <div class="serve-card">
       <div class="row align-items-center text-center text-lg-start">
         <div class="col-lg-2 mb-4 mb-lg-0">
-          <i class="bi bi-people-fill serve-icon"></i>
+          <i aria-hidden="true" class="bi bi-people-fill serve-icon"></i>
         </div>
         <div class="col-lg-10 text-light">
-          <h3 style="color: #F4CE6B; font-weight: 700;" class="mb-2">Youth (18–35 Years)</h3>
+          <h2 style="color: #F4CE6B; font-weight: 700;" class="mb-2 h4">Youth (18–35 Years)</h2>
           <div class="stat-badge">Over 75% of Kenya's population is under 35</div>
           <p style="font-size: 1.05rem; line-height: 1.7; color: #e0e0e0;">
             Kenya is one of the youngest countries in the world, with over 75% of the population under 35. Yet youth unemployment and underemployment remain among the country's most pressing challenges. Young people often finish school or vocational training without the practical, market-linked skills that employers actually need — and without the networks or mentorship to bridge the gap. The BMF works with young people aged 18–35 to build the skills, confidence, and connections that turn potential into opportunity.
@@ -77,10 +100,10 @@
     <div class="serve-card">
       <div class="row align-items-center text-center text-lg-start flex-lg-row-reverse">
         <div class="col-lg-2 mb-4 mb-lg-0 text-lg-end">
-          <i class="bi bi-gender-female serve-icon"></i>
+          <i aria-hidden="true" class="bi bi-gender-female serve-icon"></i>
         </div>
         <div class="col-lg-10 text-light">
-          <h3 style="color: #F4CE6B; font-weight: 700;" class="mb-2">Women</h3>
+          <h2 style="color: #F4CE6B; font-weight: 700;" class="mb-2 h4">Women</h2>
           <div class="stat-badge">Investing in women produces the highest economic returns</div>
           <p style="font-size: 1.05rem; line-height: 1.7; color: #e0e0e0;">
             Women in Kenya face structural barriers to economic participation: unequal access to finance, under-representation in technical and entrepreneurial fields, and social expectations that limit their mobility and ambition. Yet evidence consistently shows that investing in women produces the highest returns for families, communities, and economies. The BMF's programmes are designed to be gender-responsive — addressing not just skills gaps but the confidence, networks, and support systems that enable women to take bold economic steps.
@@ -97,10 +120,10 @@
     <div class="serve-card">
       <div class="row align-items-center text-center text-lg-start">
         <div class="col-lg-2 mb-4 mb-lg-0">
-          <i class="bi bi-universal-access serve-icon"></i>
+          <i aria-hidden="true" class="bi bi-universal-access serve-icon"></i>
         </div>
         <div class="col-lg-10 text-light">
-          <h3 style="color: #F4CE6B; font-weight: 700;" class="mb-2">Persons with Disabilities</h3>
+          <h2 style="color: #F4CE6B; font-weight: 700;" class="mb-2 h4">Persons with Disabilities</h2>
           <div class="stat-badge">An estimated 4.6% of Kenyans live with a disability</div>
           <p style="font-size: 1.05rem; line-height: 1.7; color: #e0e0e0;">
             An estimated 4.6% of Kenyans live with a disability, yet persons with disabilities remain disproportionately excluded from education, employment, and entrepreneurship opportunities. Physical, informational, and attitudinal barriers persist across institutions and workplaces. The BMF is committed to inclusive programme design — ensuring our training venues, materials, and delivery methods are accessible, and that persons with disabilities are not an afterthought but central participants in everything we do.
@@ -114,7 +137,7 @@
 <!-- CTA Banner -->
 <section class="py-5 cta-banner text-center text-light">
   <div class="container">
-    <h3 class="fw-bold mb-3" style="color: #F4CE6B;">Ready to Make a Difference?</h3>
+    <h2 class="fw-bold mb-3 h4" style="color: #F4CE6B;">Ready to Make a Difference?</h2>
     <p class="lead mb-4 mx-auto" style="max-width: 700px; color: #e0e0e0;">
       Whether you are a partner, donor, or supporter, you can help us expand access to skills and opportunity for Kenya's most underserved communities.
     </p>
@@ -132,33 +155,34 @@
   <div class="container">
     <div class="row g-5">
       <div class="col-md-4">
-        <h5 class="fw-bold mb-3 text-warning">The Bold Move Foundation</h5>
+        <h2 class="h5 fw-bold mb-3 text-warning">The Bold Move Foundation</h2>
         <p class="mb-4">A Kenyan non-profit equipping youth, women, and persons with disabilities with education, entrepreneurial, digital, financial, and employability skills to build lasting economic independence.</p>
         <img src="images/bmf-logo.webp" alt="The Bold Move Foundation Logo" width="90">
       </div>
       <div class="col-md-4">
-        <h5 class="fw-bold mb-3 text-warning">Quick Links</h5>
+        <h2 class="h5 fw-bold mb-3 text-warning">Quick Links</h2>
         <ul class="list-unstyled">
           <li class="mb-2"><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
           <li class="mb-2"><a href="focus-areas.html" class="text-light text-decoration-none">Our Focus Areas</a></li>
+          <li class="mb-2"><a href="programs.html" class="text-light text-decoration-none">Programs</a></li>
           <li class="mb-2"><a href="who-we-serve.html" class="text-light text-decoration-none">Who We Serve</a></li>
           <li class="mb-2"><a href="partner.html" class="text-light text-decoration-none">Partner With Us</a></li>
           <li class="mb-2"><a href="contact.html" class="text-light text-decoration-none">Contact Us</a></li>
         </ul>
       </div>
       <div class="col-md-4">
-        <h5 class="fw-bold mb-3 text-warning">Get in Touch</h5>
-        <p class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i>P.O. Box 62000-00200, Nairobi, Kenya</p>
-        <p class="mb-2"><i class="bi bi-telephone-fill me-2"></i>+254 715 045 051</p>
-        <p class="mb-2"><i class="bi bi-telephone-fill me-2"></i>+254 719 641 539</p>
-        <p class="mb-3"><i class="bi bi-envelope-fill me-2"></i>info@thebmf.org</p>
+        <h2 class="h5 fw-bold mb-3 text-warning">Get in Touch</h2>
+        <p class="mb-2"><i aria-hidden="true" class="bi bi-geo-alt-fill me-2"></i>P.O. Box 62000-00200, Nairobi, Kenya</p>
+        <p class="mb-2"><i aria-hidden="true" class="bi bi-telephone-fill me-2"></i>+254 715 045 051</p>
+        <p class="mb-2"><i aria-hidden="true" class="bi bi-telephone-fill me-2"></i>+254 719 641 539</p>
+        <p class="mb-3"><i aria-hidden="true" class="bi bi-envelope-fill me-2"></i>info@thebmf.org</p>
         <div class="d-flex gap-2 flex-wrap">
           <a href="contact.html" class="btn btn-custom btn-sm">Support Our Cause</a>
           <a href="partner.html" class="btn btn-outline-warning btn-sm">Partner With Us</a>
         </div>
         <div class="mt-3 d-flex gap-3">
-          <a href="https://www.facebook.com/people/The-Bold-Move-Foundation-The-BMF/61588023223602/" target="_blank" class="text-warning fs-4"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.linkedin.com/company/the-bold-move-foundation-the-bmf" target="_blank" class="text-warning fs-4"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.facebook.com/people/The-Bold-Move-Foundation-The-BMF/61588023223602/" target="_blank" rel="noopener noreferrer" class="text-warning fs-4" aria-label="Follow us on Facebook"><i aria-hidden="true" class="bi bi-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/the-bold-move-foundation-the-bmf" target="_blank" rel="noopener noreferrer" class="text-warning fs-4" aria-label="Follow us on LinkedIn"><i aria-hidden="true" class="bi bi-linkedin"></i></a>
         </div>
       </div>
     </div>
