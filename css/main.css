@@ -26,8 +26,8 @@ a { text-decoration: none; }
 .navbar-custom .nav-link {
   color: white !important;
   font-weight: 600;
-  padding: 0.5rem 1.05rem !important;
-  font-size: 1.05rem;
+  padding: 0.4rem 0.85rem !important;
+  font-size: 0.98rem;
   transition: color 0.25s ease;
 }
 
@@ -552,10 +552,14 @@ a { text-decoration: none; }
 }
 
 /* Intermediate screens nav link padding to prevent wrapping */
-@media (min-width: 992px) and (max-width: 1240px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .navbar-custom .nav-link {
-    padding: 0.4rem 0.65rem !important;
-    font-size: 0.95rem !important;
+    padding: 0.35rem 0.55rem !important;
+    font-size: 0.92rem !important;
+  }
+  .navbar-custom .btn-custom {
+    font-size: 0.92rem !important;
+    padding: 0.35rem 0.95rem !important;
   }
   .brand-name {
     font-size: 1.1rem !important;
@@ -597,9 +601,9 @@ a { text-decoration: none; }
 
 /* Navbar button font sizing override */
 .navbar-custom .btn-custom {
-  font-size: 1.05rem !important;
+  font-size: 0.98rem !important;
   font-weight: 600;
-  padding: 0.5rem 1.25rem !important;
+  padding: 0.4rem 1.15rem !important;
 }
 
 
