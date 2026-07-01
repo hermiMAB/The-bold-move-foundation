@@ -75,61 +75,12 @@
 <section class="py-5" style="background-color: #181818;">
   <div class="container">
     
-    <!-- Partnership Inquiry Note -->
-    <div class="partnership-inquiry mb-5 text-light mx-auto" style="max-width: 800px;">
-      <h2 style="color: #F4CE6B;" class="mb-3 h4">Partner With Us</h2>
-      <p style="color: #e0e0e0;">
-        We are actively seeking partnerships with organisations and individuals who share our commitment to equitable opportunity in Kenya. Reach out and let's explore what we can build together.
+    <!-- Partnership Inquiry Note & General Contact -->
+    <div class="partnership-inquiry mb-5 text-light mx-auto" style="max-width: 800px; text-align: center;">
+      <h2 style="color: #F4CE6B;" class="mb-3 h4">Get in Touch / Partner With Us</h2>
+      <p style="color: #e0e0e0; font-size: 1.1rem;" class="mb-0">
+        We are actively seeking partnerships with organisations and individuals who share our commitment to equitable opportunity in Kenya. Whether you have an inquiry or would like to partner with us, please contact us directly.
       </p>
-      <p class="mb-0 text-warning">
-        <i aria-hidden="true" class="bi bi-arrow-right-circle-fill me-2"></i>Use the form below — select "Partnership Inquiry" in the Subject field.
-      </p>
-    </div>
-
-    <!-- Contact Form -->
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <h2 class="text-center mb-4 h4" style="color: #F4CE6B;">Send Us a Message</h2>
-        <form name="contact" method="POST" data-netlify="true" class="needs-validation" novalidate>
-          <div class="row g-3">
-            <div class="col-md-6">
-              <label for="fullName" class="form-label">Full Name *</label>
-              <input type="text" class="form-control" id="fullName" name="fullName" required>
-              <div class="invalid-feedback">Please enter your full name.</div>
-            </div>
-            <div class="col-md-6">
-              <label for="organisation" class="form-label">Organisation / Company</label>
-              <input type="text" class="form-control" id="organisation" name="organisation">
-            </div>
-            <div class="col-md-6">
-              <label for="email" class="form-label">Email Address *</label>
-              <input type="email" class="form-control" id="email" name="email" required>
-              <div class="invalid-feedback">Please enter a valid email address.</div>
-            </div>
-            <div class="col-md-6">
-              <label for="subject" class="form-label">Subject *</label>
-              <select class="form-select" id="subject" name="subject" required>
-                <option value="" selected disabled>Select a subject...</option>
-                <option value="Donation / Support">Donation / Support</option>
-                <option value="Partnership Inquiry">Partnership Inquiry</option>
-                <option value="General Inquiry">General Inquiry</option>
-                <option value="Programme Information">Programme Information</option>
-                <option value="Volunteer">Volunteer</option>
-                <option value="Other">Other</option>
-              </select>
-              <div class="invalid-feedback">Please select a subject.</div>
-            </div>
-            <div class="col-12">
-              <label for="message" class="form-label">Message *</label>
-              <textarea class="form-control" id="message" name="message" rows="6" minlength="20" required></textarea>
-              <div class="invalid-feedback">Please enter a message (minimum 20 characters).</div>
-            </div>
-            <div class="col-12 mt-4 text-center">
-              <button type="submit" class="btn btn-custom btn-lg w-100">Send Message</button>
-            </div>
-          </div>
-        </form>
-      </div>
     </div>
 
     <!-- Contact Details Cards -->
@@ -153,15 +104,7 @@
           </p>
         </div>
       </div>
-      <div class="col-md-6 col-lg-3">
-        <div class="contact-card">
-          <i aria-hidden="true" class="bi bi-envelope-fill contact-icon"></i>
-          <h3 class="text-warning h5">Email Us</h3>
-          <p class="contact-detail">
-            <a href="mailto:info@thebmf.org">info@thebmf.org</a>
-          </p>
-        </div>
-      </div>
+
       <div class="col-md-6 col-lg-3">
         <div class="contact-card">
           <i aria-hidden="true" class="bi bi-share-fill contact-icon"></i>
@@ -202,8 +145,7 @@
         <h2 class="h5 fw-bold mb-3 text-warning">Get in Touch</h2>
         <p class="mb-2"><i aria-hidden="true" class="bi bi-geo-alt-fill me-2"></i>P.O. Box 62000-00200, Nairobi, Kenya</p>
         <p class="mb-2"><i aria-hidden="true" class="bi bi-telephone-fill me-2"></i>+254 715 045 051</p>
-        <p class="mb-2"><i aria-hidden="true" class="bi bi-telephone-fill me-2"></i>+254 719 641 539</p>
-        <p class="mb-3"><i aria-hidden="true" class="bi bi-envelope-fill me-2"></i>info@thebmf.org</p>
+        <p class="mb-3"><i aria-hidden="true" class="bi bi-telephone-fill me-2"></i>+254 719 641 539</p>
         <div class="d-flex gap-2 flex-wrap">
           <a href="contact.html" class="btn btn-custom btn-sm">Support Our Cause</a>
           <a href="partner.html" class="btn btn-outline-warning btn-sm">Partner With Us</a>
@@ -222,35 +164,6 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script>
-  // Form validation script
-  (function () {
-    'use strict'
-    var forms = document.querySelectorAll('.needs-validation')
-    Array.prototype.slice.call(forms)
-      .forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-          // If valid, let it submit naturally!
-          form.classList.add('was-validated')
-        }, false)
-      })
-  })();
 
-  // Auto-select dropdown subject if passed in URL
-  (function () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const subjectParam = urlParams.get('subject');
-    if (subjectParam) {
-      const selectElem = document.getElementById('subject');
-      if (selectElem) {
-        selectElem.value = subjectParam;
-      }
-    }
-  })();
-</script>
 </body>
 </html>
