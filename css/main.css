@@ -348,7 +348,7 @@ a { text-decoration: none; }
 .partner-hero {
       position: relative;
       min-height: 40vh;
-      background: linear-gradient(135deg, #0d1b2a 0%, #1a3a2a 100%);
+      background: linear-gradient(135deg, #0d1b2a 0%, #1a2a4a 100%);
       border-bottom: 3px solid #F4CE6B;
       display: flex;
       flex-direction: column;
