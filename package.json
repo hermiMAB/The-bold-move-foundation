@@ -1,0 +1,23 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "**Overview** This website was developed for the Bold Move Foundation, a non-profit organization dedicated to empowering vulnerable communities in Kenya through education, healthcare, economic empowerment, digital literacy, and humanitarian support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hermiMAB/The-bold-move-foundation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hermiMAB/The-bold-move-foundation/issues"
+  },
+  "homepage": "https://github.com/hermiMAB/The-bold-move-foundation#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
