@@ -158,7 +158,7 @@ export default function About() {
               <div className="team-card text-light p-4">
                 <img src="/images/damaris.jpg" alt="Dr. Damaris Felistus Mulwa" className="team-photo mb-3" />
                 <h3 style={{ color: "#F4CE6B" }}>Dr. Damaris Felistus Mulwa, PhD</h3>
-                <p className="text-warning fw-bold small mb-3">Co-Founder & Chairperson of the Board</p>
+                <p className="text-warning fw-bold small mb-3">Co-Founder</p>
                 <div className="small text-start">
                   <p className="mb-3">
                     Dr. Damaris Felistus Mulwa is the Chairperson of the Board and co-founding director of the Bold Move Foundation. Besides, she is the program lead of the Bold Move Foundation (BMF), a Kenyan NGO that equips women, youth, and persons with disabilities in underserved Kenyan counties with education, digital, financial, entrepreneurial, and employable skills.
@@ -176,7 +176,7 @@ export default function About() {
               <div className="team-card text-light p-4">
                 <img src="/images/millicent.jpg" alt="Millicent Willy" className="team-photo mb-3" />
                 <h3 style={{ color: "#F4CE6B" }}>Millicent Willy, CPA-K</h3>
-                <p className="text-warning fw-bold small mb-3">Co-Founder & Treasurer of the Board</p>
+                <p className="text-warning fw-bold small mb-3">Co-Founder</p>
                 <div className="small text-start">
                   <p className="mb-3">
                     Millicent is a finance and development professional with over a decade of experience across the private sector and nonprofit development space. Her career spans corporate finance, grants management, donor compliance, financial strategy, and organisational strengthening, with experience managing multi-million-dollar grant portfolios across Africa.
