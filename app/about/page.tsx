@@ -149,19 +149,34 @@ export default function About() {
         </div>
       </section>
 
-      {/* Our Team */}
-      <section id="team" className="py-5" style={{ backgroundColor: "#1a1a1a" }}>
-        <div className="container">
-          <h2 className="fw-bold mb-4 text-center" style={{ color: "#F4CE6B" }}>Our Team</h2>
-          <p className="text-center mx-auto mb-5 text-light" style={{ maxWidth: "800px" }}>
-            The BMF is led by a committed founding team with deep roots in community development, training, and youth empowerment in Kenya. Their combined experience drives the organisation's vision and daily operations.
-          </p>
+      {/* Our Board */}
+      <section id="board" className="py-5" style={{ backgroundColor: "#181818" }}>
+        <div className="container text-center">
+          <h2 className="fw-bold mb-5" style={{ color: "#F4CE6B" }}>Our Board</h2>
           <div className="row g-4 justify-content-center">
-            <div className="col-md-6">
+            <div className="col-lg-4 col-md-6">
+              <div className="team-card text-light p-4">
+                <img src="/images/damaris.jpg" alt="Dr. Damaris Felistus Mulwa" className="team-photo mb-3" />
+                <h3 style={{ color: "#F4CE6B" }}>Dr. Damaris Felistus Mulwa, PhD</h3>
+                <p className="text-warning fw-bold small mb-3">Chairperson of the Board</p>
+                <div className="small text-start">
+                  <p className="mb-3">
+                    Dr. Damaris Felistus Mulwa is the Chairperson of the Board and co-founding director of the Bold Move Foundation. Besides, she is the program lead of the Bold Move Foundation (BMF), a Kenyan NGO that equips women, youth, and persons with disabilities in underserved Kenyan counties with education, digital, financial, entrepreneurial, and employable skills.
+                  </p>
+                  <p className="mb-3">
+                    Through training, mentorship, and pathways to work, the Bold Move Foundation aims to reduce unemployment and poverty and build economic resilience in the communities we serve.
+                  </p>
+                  <p className="mb-0">
+                    Dr. Damaris is a Lecturer in the Department of Statistics and Actuarial Sciences at Jomo Kenyatta University of Agriculture and Technology, Kenya. She holds a PhD in Mathematics from Sokoine University of Agriculture, Tanzania, an MSc in Applied Statistics from Jomo Kenyatta University of Agriculture and Technology, Kenya, and a Bachelor of Science in Mathematics (First class honors) from the Jomo Kenyatta University of Agriculture and Technology, Kenya. She has over ten years experience in university teaching, research and mentorship.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
               <div className="team-card text-light p-4">
                 <img src="/images/millicent.jpg" alt="Millicent Willy" className="team-photo mb-3" />
                 <h3 style={{ color: "#F4CE6B" }}>Millicent Willy, CPA-K</h3>
-                <p className="text-warning fw-bold small mb-3">Co-Founder & Executive Director</p>
+                <p className="text-warning fw-bold small mb-3">Treasurer of the Board</p>
                 <div className="small text-start">
                   <p className="mb-3">
                     Millicent is a finance and development professional with over a decade of experience across the private sector and nonprofit development space. Her career spans corporate finance, grants management, donor compliance, financial strategy, and organisational strengthening, with experience managing multi-million-dollar grant portfolios across Africa.
@@ -187,62 +202,11 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
-              <div className="team-card text-light p-4">
-                <img src="/images/damaris.jpg" alt="Dr. Damaris Felistus Mulwa" className="team-photo mb-3" />
-                <h3 style={{ color: "#F4CE6B" }}>Dr. Damaris Felistus Mulwa, PhD</h3>
-                <p className="text-warning fw-bold small mb-3">Co-Founder & Program Lead</p>
-                <div className="small text-start">
-                  <p className="mb-3">
-                    Dr. Damaris Felistus Mulwa is the co-founding director of the Bold Move Foundation. Besides, she is the program lead of the Bold Move Foundation (BMF), a Kenyan NGO that equips women, youth, and persons with disabilities in underserved Kenyan counties with education, digital, financial, entrepreneurial, and employable skills.
-                  </p>
-                  <p className="mb-3">
-                    Through training, mentorship, and pathways to work, the Bold Move Foundation aims to reduce unemployment and poverty and build economic resilience in the communities we serve.
-                  </p>
-                  <p className="mb-0">
-                    Dr. Damaris is a Lecturer in the Department of Statistics and Actuarial Sciences at Jomo Kenyatta University of Agriculture and Technology, Kenya. She holds a PhD in Mathematics from Sokoine University of Agriculture, Tanzania, an MSc in Applied Statistics from Jomo Kenyatta University of Agriculture and Technology, Kenya, and a Bachelor of Science in Mathematics (First class honors) from the Jomo Kenyatta University of Agriculture and Technology, Kenya. She has over ten years experience in university teaching, research and mentorship.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Our Board */}
-      <section id="board" className="py-5" style={{ backgroundColor: "#181818" }}>
-        <div className="container text-center">
-          <h2 className="fw-bold mb-5" style={{ color: "#F4CE6B" }}>Our Board</h2>
-          <div className="row g-4 justify-content-center">
-            <div className="col-lg-4 col-md-6">
-              <div className="team-card text-light p-4">
-                <img src="/images/damaris.jpg" alt="Dr. Damaris Felistus Mulwa" className="team-photo mb-3" />
-                <h3 style={{ color: "#F4CE6B" }}>Dr. Damaris Felistus Mulwa, PhD</h3>
-                <p className="text-warning fw-bold small mb-3">Chairperson of the Board</p>
-                <div className="small text-start">
-                  <p className="mb-0">
-                    Dr. Damaris Felistus Mulwa is the Chairperson of the Board and co-founding director of the Bold Move Foundation. She is a Lecturer in the Department of Statistics and Actuarial Sciences at Jomo Kenyatta University of Agriculture and Technology, Kenya. She holds a PhD in Mathematics from Sokoine University of Agriculture, Tanzania.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="team-card text-light p-4">
-                <img src="/images/millicent.jpg" alt="Millicent Willy" className="team-photo mb-3" />
-                <h3 style={{ color: "#F4CE6B" }}>Millicent Willy, CPA-K</h3>
-                <p className="text-warning fw-bold small mb-3">Treasurer of the Board</p>
-                <div className="small text-start">
-                  <p className="mb-0">
-                    Millicent is the Treasurer of the Board and Co-Founder of the Bold Move Foundation. She is a finance and development professional with over a decade of experience across the private sector and nonprofit development space, specializing in grants management, donor compliance, and financial strategy.
-                  </p>
-                </div>
-              </div>
-            </div>
             <div className="col-lg-4 col-md-6">
               <div className="team-card text-light p-4">
                 <img src="/images/imelda.png" alt="Imelda Ochari" className="team-photo mb-3" />
                 <h3 style={{ color: "#F4CE6B" }}>Imelda Ochari</h3>
-                <p className="text-warning fw-bold small mb-3">Board Member & MEAL Specialist</p>
+                <p className="text-warning fw-bold small mb-3">Board Member</p>
                 <div className="small text-start">
                   <p className="mb-3">
                     Imelda Ochari is a Research, Monitoring, Evaluation, and Learning (MEAL) Specialist with 20 years of experience in Health Systems Strengthening, focusing on Primary Healthcare (PHC) research and improvement across Africa and Asia. Her expertise spans impact measurement, data visualization, digital health solutions, and policy analysis, with a strong commitment to gender integration and inclusive data systems that advance health equity.
@@ -263,7 +227,7 @@ export default function About() {
               <div className="team-card text-light p-4">
                 <img src="/images/reuben.jpg" alt="Reuben Manyiza" className="team-photo mb-3" />
                 <h3 style={{ color: "#F4CE6B" }}>Reuben Manyiza</h3>
-                <p className="text-warning fw-bold small mb-3">Board Member & Finance Operations Expert</p>
+                <p className="text-warning fw-bold small mb-3">Board Member</p>
                 <div className="small text-start">
                   <p className="mb-3">
                     Reuben Manyiza is a Global Process Expert with more than 15 years of comprehensive experience in finance and accounting. Serving as a key strategic partner to finance operations, he bridges the gap between financial governance and operational agility.
@@ -284,7 +248,7 @@ export default function About() {
               <div className="team-card text-light p-4">
                 <img src="/images/jane.png" alt="Prof Jane Catherine Ngila" className="team-photo mb-3" />
                 <h3 style={{ color: "#F4CE6B" }}>Prof Jane Catherine Ngila</h3>
-                <p className="text-warning fw-bold small mb-3">Board Member & STEM Education Expert</p>
+                <p className="text-warning fw-bold small mb-3">Board Member</p>
                 <div className="small text-start">
                   <p className="mb-3">
                     Prof. Jane Catherine Ngila is currently the Executive Director of the African Foundation for Women and Youth in Education, Science, Technology and Innovation (ESTI). The vision of AFoWYESTI is to promote access to quality education, alleviate poverty, and offer mentorship programmes for women and youth in STEM.
@@ -301,6 +265,7 @@ export default function About() {
           </div>
         </div>
       </section>
+
 
       {/* Our Partners */}
       <section id="partners" className="py-5" style={{ backgroundColor: "#1a1a1a" }}>
