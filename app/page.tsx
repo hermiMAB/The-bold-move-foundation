@@ -3,6 +3,24 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
+      {/* Organization Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NonProfit",
+            "name": "The Bold Move Foundation",
+            "url": "https://www.theboldmovefoundation.org",
+            "description": "The Bold Move Foundation empowers youth, women, and persons with disabilities through education and digital skills training.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "Kenya"
+            },
+            "sameAs": []
+          })
+        }}
+      />
       {/* Hero */}
       <section className="hero">
         <div className="hero-content text-center px-4">

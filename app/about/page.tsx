@@ -212,10 +212,93 @@ export default function About() {
       {/* Our Board */}
       <section id="board" className="py-5" style={{ backgroundColor: "#181818" }}>
         <div className="container text-center">
-          <h2 className="fw-bold mb-4" style={{ color: "#F4CE6B" }}>Our Board</h2>
-          <p className="lead mx-auto text-light" style={{ maxWidth: "800px" }}>
-            Our Board of Directors profiles are currently being finalized and will be published soon. The Bold Move Foundation is governed by a diverse board of professionals dedicated to strategic oversight, accountability, and sustainable development.
-          </p>
+          <h2 className="fw-bold mb-5" style={{ color: "#F4CE6B" }}>Our Board</h2>
+          <div className="row g-4 justify-content-center">
+            <div className="col-lg-4 col-md-6">
+              <div className="team-card text-light p-4">
+                <img src="/images/damaris.jpg" alt="Dr. Damaris Felistus Mulwa" className="team-photo mb-3" />
+                <h3 style={{ color: "#F4CE6B" }}>Dr. Damaris Felistus Mulwa, PhD</h3>
+                <p className="text-warning fw-bold small mb-3">Chairperson of the Board</p>
+                <div className="small text-start">
+                  <p className="mb-0">
+                    Dr. Damaris Felistus Mulwa is the Chairperson of the Board and co-founding director of the Bold Move Foundation. She is a Lecturer in the Department of Statistics and Actuarial Sciences at Jomo Kenyatta University of Agriculture and Technology, Kenya. She holds a PhD in Mathematics from Sokoine University of Agriculture, Tanzania.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="team-card text-light p-4">
+                <img src="/images/millicent.jpg" alt="Millicent Willy" className="team-photo mb-3" />
+                <h3 style={{ color: "#F4CE6B" }}>Millicent Willy, CPA-K</h3>
+                <p className="text-warning fw-bold small mb-3">Treasurer of the Board</p>
+                <div className="small text-start">
+                  <p className="mb-0">
+                    Millicent is the Treasurer of the Board and Co-Founder of the Bold Move Foundation. She is a finance and development professional with over a decade of experience across the private sector and nonprofit development space, specializing in grants management, donor compliance, and financial strategy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="team-card text-light p-4">
+                <img src="/images/imelda.png" alt="Imelda Ochari" className="team-photo mb-3" />
+                <h3 style={{ color: "#F4CE6B" }}>Imelda Ochari</h3>
+                <p className="text-warning fw-bold small mb-3">Board Member & MEAL Specialist</p>
+                <div className="small text-start">
+                  <p className="mb-3">
+                    Imelda Ochari is a Research, Monitoring, Evaluation, and Learning (MEAL) Specialist with 20 years of experience in Health Systems Strengthening, focusing on Primary Healthcare (PHC) research and improvement across Africa and Asia. Her expertise spans impact measurement, data visualization, digital health solutions, and policy analysis, with a strong commitment to gender integration and inclusive data systems that advance health equity.
+                  </p>
+                  <p className="mb-3">
+                    She has successfully led large-scale PHC and Community-Based Surveillance (CBS) studies in Kenya, Tanzania, Nigeria, and Indonesia, conducting systems assessments at public health centers and sub-national levels, identifying gaps, and providing actionable recommendations for strengthening surveillance and response capacity. She has developed detailed M&E strategies aligned with project objectives and resources, leveraging digital tools for real-time monitoring and decision-making.
+                  </p>
+                  <p className="mb-3">
+                    Her experience includes designing and implementing digital data collection platforms, mentoring national staff on documenting lessons from CBS expansion, and facilitating capacity-building workshops for national surveillance teams. She excels in translating research findings into policy and practice, contributing to evidence-based reforms, digital innovations, and sustainable improvements in healthcare delivery, particularly for marginalized populations.
+                  </p>
+                  <p className="mb-0">
+                    Imelda is pursuing a PhD in Health Systems Management at Kenya Methodist University. She holds a Master's Degree in Community Health and Development from Great Lakes University of Kisumu, Kenya, and a Bachelor's Degree in Biomedical Sciences and Technology from Maseno University, Kenya.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="team-card text-light p-4">
+                <img src="/images/reuben.jpg" alt="Reuben Manyiza" className="team-photo mb-3" />
+                <h3 style={{ color: "#F4CE6B" }}>Reuben Manyiza</h3>
+                <p className="text-warning fw-bold small mb-3">Board Member & Finance Operations Expert</p>
+                <div className="small text-start">
+                  <p className="mb-3">
+                    Reuben Manyiza is a Global Process Expert with more than 15 years of comprehensive experience in finance and accounting. Serving as a key strategic partner to finance operations, he bridges the gap between financial governance and operational agility.
+                  </p>
+                  <p className="mb-3">
+                    A certified Lean Office Green Belt, Reuben is an expert in organizational design, waste elimination, and continuous improvement. Throughout his career, he has successfully spearheaded cross-functional initiatives aimed at stripping away systemic inefficiencies, optimizing global workflows, and maximizing bottom-line productivity with a Leading Multinational in the Testing Verification and Certification Industry (TIC).
+                  </p>
+                  <p className="mb-3">
+                    Known for a data-driven approach and a collaborative leadership style, Reuben transforms complex finance operations into streamlined, high-performing engines that support long-term Organization's strategy.
+                  </p>
+                  <p className="mb-0">
+                    He holds a Bachelor's degree from Kenyatta University and is a CPA-K. He is currently pursuing a Master's degree at Strathmore University and is a holder of a Green Belt in Lean Office.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="team-card text-light p-4">
+                <img src="/images/jane.png" alt="Prof Jane Catherine Ngila" className="team-photo mb-3" />
+                <h3 style={{ color: "#F4CE6B" }}>Prof Jane Catherine Ngila</h3>
+                <p className="text-warning fw-bold small mb-3">Board Member & STEM Education Expert</p>
+                <div className="small text-start">
+                  <p className="mb-3">
+                    Prof. Jane Catherine Ngila is currently the Executive Director of the African Foundation for Women and Youth in Education, Science, Technology and Innovation (ESTI). The vision of AFoWYESTI is to promote access to quality education, alleviate poverty, and offer mentorship programmes for women and youth in STEM.
+                  </p>
+                  <p className="mb-3">
+                    She is the immediate former Interim Executive Director of the African Academy of Sciences (AAS). She is a former member of the UN 10-Member Group for technology facilitation mechanism on STI for SDGs; UNESCO International Consultative Group of Experts for Women in Science; Council Member of United Nations University; Member of International Organization for Chemical Sciences in Development (IOCD); and a Council Member of United Nations University. She is a Fellow of TWAS, AAS, and ASSAf. She received the 2025 IUPAC Distinguished Women in Chemistry Award, the 2021 L'Oréal-UNESCO FWIS representing Africa and the Middle East, the 2017 African Union-Kwame Nkrumah Women Scientific Awards, and the 2016 South Africa Distinguished Women in Science Awards.
+                  </p>
+                  <p className="mb-0">
+                    She has previously held the following teaching and management positions: Deputy Vice Chancellor of Riara University for Academic Affairs; Deputy Director of the Institute of Oil and Gas, Kenya Pipeline Company; Professor and Head of Applied Chemistry at University of Johannesburg; and Senior Lecturer/Lecturer at University of KwaZulu-Natal, University of Botswana, and Kenyatta University.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

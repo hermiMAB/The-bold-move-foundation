@@ -42,6 +42,27 @@ export default function Team() {
                 <p>Contributes to strategic planning, project execution, and stakeholder engagement.</p>
               </div>
             </div>
+            <div className="col-md-6 col-lg-4">
+              <div className="team-card p-4">
+                <h4>Imelda Ochari</h4>
+                <p className="text-warning fw-medium">Member</p>
+                <p>Research, Monitoring, Evaluation, and Learning (MEAL) Specialist with 20 years of experience in Health Systems Strengthening.</p>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <div className="team-card p-4">
+                <h4>Reuben Manyiza</h4>
+                <p className="text-warning fw-medium">Member</p>
+                <p>Global Process Expert with over 15 years of experience in finance, accounting, and organizational design.</p>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <div className="team-card p-4">
+                <h4>Prof Jane Catherine Ngila</h4>
+                <p className="text-warning fw-medium">Member</p>
+                <p>Executive Director of AFoWYESTI and former Interim Executive Director of AAS, with extensive experience in STEM education and research.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
