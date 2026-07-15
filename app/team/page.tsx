@@ -10,14 +10,14 @@ export default function Team() {
             <div className="col-md-6 col-lg-4">
               <div className="team-card p-4">
                 <h4>Damaris Felistus Mulwa</h4>
-                <p className="text-warning fw-medium">Chairperson</p>
+                <p className="text-warning fw-medium">Co-Founder & Chairperson</p>
                 <p>Leading the foundation with a vision for sustainable community empowerment and development.</p>
               </div>
             </div>
             <div className="col-md-6 col-lg-4">
               <div className="team-card p-4">
                 <h4>Millicent Kalulu Willy</h4>
-                <p className="text-warning fw-medium">Treasurer</p>
+                <p className="text-warning fw-medium">Co-Founder & Treasurer</p>
                 <p>Oversees financial transparency, grants management, and economic empowerment initiatives.</p>
               </div>
             </div>
