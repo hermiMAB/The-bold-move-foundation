@@ -14,6 +14,7 @@ export default function Footer() {
             <h2 className="h5 fw-bold mb-3 text-warning">Quick Links</h2>
             <ul className="list-unstyled">
               <li className="mb-2"><Link href="/about" className="text-light text-decoration-none">About Us</Link></li>
+              <li className="mb-2"><Link href="/team" className="text-light text-decoration-none">Our Team</Link></li>
               <li className="mb-2"><Link href="/focus-areas" className="text-light text-decoration-none">Our Focus Areas</Link></li>
               <li className="mb-2"><Link href="/programs" className="text-light text-decoration-none">Programs</Link></li>
               <li className="mb-2"><Link href="/who-we-serve" className="text-light text-decoration-none">Who We Serve</Link></li>

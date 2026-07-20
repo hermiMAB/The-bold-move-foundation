@@ -73,6 +73,11 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/team" className="dropdown-item py-2" onClick={closeNavbar}>
+                    Our Team
+                  </Link>
+                </li>
+                <li>
                   <Link href="/about#board" className="dropdown-item py-2" onClick={closeNavbar}>
                     Our Board
                   </Link>
