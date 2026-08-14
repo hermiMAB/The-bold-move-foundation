@@ -156,6 +156,30 @@ export default function About() {
           <div className="row g-4 justify-content-center">
             <div className="col-lg-4 col-md-6">
               <div className="team-card text-light p-4">
+                <img src="/images/geofrey.jpg" alt="Geofrey Oyoo Oduwo" className="team-photo mb-3" />
+                <h3 style={{ color: "#F4CE6B" }}>Geofrey Oyoo Oduwo</h3>
+                <p className="text-warning fw-bold small mb-3">Board Chairperson</p>
+                <div className="small text-start">
+                  <p className="mb-3">
+                    Geofrey Oyoo Oduwo is the Chairperson of the Board of Directors of The Bold Move Foundation and a seasoned statistician, governance leader, and Monitoring, Evaluation, Accountability and Learning (MEAL), impact evaluation and data analytics professional. He brings more than 17 years of experience strengthening organisational strategy, programme quality, accountability, learning and evidence-informed decision-making across humanitarian, development, public health and private-sector settings. At the Foundation, he leads the Board, supports sound governance and accountability, and helps guide the strategic priorities, partnerships and sustainable impact of the organisation.
+                  </p>
+                  <p className="mb-3">
+                    He currently serves as an Independent Consultant and as Director, Lead Statistician and M&E Specialist at Innovia Research Consulting. He is also Co-Founder, Board Member and Director of Monitoring and Evaluation at Sustainable Solutions Kenya (SUSOK), Chairman of the Statistical Society of Kenya, and a mentor with Dada STEM. His wider governance and service experience includes serving as Chairperson of the Board of Management at Bongia Primary School, Chairman of the Kenyans in Nigeria Association, and Founding Secretary General of the Agoro Sare Alumni Welfare Association.
+                  </p>
+                  <p className="mb-3">
+                    Geofrey has held senior leadership and technical roles with The Maa Trust, World Relief, Population Services Kenya, Evidence Action, the Kenya Flower Council, Nielsen West Africa, Nielsen Kenya, and the KEMRI/CDC Research and Public Health Collaboration. Across these roles, he has led multi-country evaluations, institutional performance systems, strategic planning and theory-of-change processes, data governance, digital monitoring platforms, organisational learning, and the translation of complex evidence into practical decisions for boards, executive teams, governments, donors and programme partners.
+                  </p>
+                  <p className="mb-3">
+                    His professional experience spans 24 countries across Africa, Asia and the Caribbean and covers health, sexual and reproductive health and rights, WASH, education, food security and livelihoods, climate resilience, conservation, governance, public policy and institutional strengthening. He is recognised for combining analytical rigour with systems thinking, ethical leadership, collaborative partnership-building and an ability to turn evidence into clear strategic direction and measurable results. He has also contributed to peer-reviewed public health and development research and regularly mentors technical professionals and emerging leaders.
+                  </p>
+                  <p className="mb-0">
+                    Geofrey holds a Master of Science in Social Statistics from Kenyatta University and a Bachelor of Science in Statistics with Information Technology from Maseno University. His professional development includes training in nonprofit board leadership, impact evaluation, project management, data privacy and protection, quality and accountability in humanitarian action, behavioural science in public policy, leadership and management in health, and artificial intelligence for monitoring, evaluation, research and learning. He is a trusted facilitator, speaker and partner-builder committed to inclusive leadership, youth opportunity, statistical excellence and evidence-informed public policy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="team-card text-light p-4">
                 <img src="/images/imelda.png" alt="Imelda Ochari" className="team-photo mb-3" />
                 <h3 style={{ color: "#F4CE6B" }}>Imelda Ochari</h3>
                 <p className="text-warning fw-bold small mb-3">Board Member</p>
