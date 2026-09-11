@@ -238,6 +238,24 @@ export default function About() {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="team-card text-light p-4">
+                <img src="/images/lenah.jpg" alt="Lenah Mulyungi" className="team-photo mb-3" />
+                <h3 style={{ color: "#F4CE6B" }}>Lenah Mulyungi</h3>
+                <p className="text-warning fw-bold small mb-3">Board Member</p>
+                <div className="small text-start">
+                  <p className="mb-3">
+                    Lenah Mulyungi is a seasoned Programme Management, Budget, and Governance Specialist with over nine years of experience leading multi-donor initiatives, sustainable development strategies, and climate change resilience programs across East Africa and internationally. She brings deep expertise in financial oversight, risk management, strategic planning, and donor relations to the Board of Directors.
+                  </p>
+                  <p className="mb-3">
+                    Throughout her career, Lenah has specialized in optimizing project delivery workflows, managing complex grant portfolios, and embedding fiduciary risk governance into development programs. She has a proven track record in capacity building, strategic monitoring and evaluation, and supporting multi-stakeholder partnerships. Her technical contributions include co-authoring national planning frameworks in Kenya that integrate climate resilience and environmental sustainability into local governance processes.
+                  </p>
+                  <p className="mb-0">
+                    Lenah holds a Master of Environmental Studies in Climate Change &amp; Environmental Sustainability and a Bachelor of Science in Conservation Biology, both from Kenyatta University. She also holds professional certifications in Programme Management, Impact Evaluation, and Risk Management. Passionate about sustainable development and impactful governance, Lenah serves on the Board in her personal capacity to provide strategic oversight and guidance to advance The Bold Move Foundation’s mission.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
