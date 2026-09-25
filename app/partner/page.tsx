@@ -76,7 +76,11 @@ export default function Partner() {
           <p className="lead mx-auto mb-5" style={{ maxWidth: "650px", color: "#e0e0e0" }}>
             Tell us about your organisation and how you'd like to partner. We'll get back to you within 3 business days.
           </p>
-          <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 mb-5">
+          <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 gap-md-5 mb-5">
+            <div>
+              <i aria-hidden="true" className="bi bi-envelope-fill fs-3 mb-2 text-warning d-block"></i>
+              <a href="mailto:info@theboldmovefoundation.org" className="text-light fs-5 text-decoration-none">info@theboldmovefoundation.org</a>
+            </div>
             <div>
               <i aria-hidden="true" className="bi bi-telephone-fill fs-3 mb-2 text-warning d-block"></i>
               <span className="fs-5">+254 715 045 051</span><br />

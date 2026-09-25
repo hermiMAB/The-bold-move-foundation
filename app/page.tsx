@@ -12,6 +12,7 @@ export default function Home() {
             "@type": "NonProfit",
             "name": "The Bold Move Foundation",
             "url": "https://www.theboldmovefoundation.org",
+            "email": "info@theboldmovefoundation.org",
             "description": "The Bold Move Foundation empowers youth, women, and persons with disabilities through education and digital skills training.",
             "address": {
               "@type": "PostalAddress",

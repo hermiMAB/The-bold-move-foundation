@@ -28,6 +28,16 @@ export default function Contact() {
                 </p>
               </div>
             </div>
+
+            <div className="col-md-6 col-lg-3">
+              <div className="contact-card">
+                <i aria-hidden="true" className="bi bi-envelope-fill contact-icon"></i>
+                <h3 className="text-warning h5">Email Us</h3>
+                <p className="contact-detail">
+                  <a href="mailto:info@theboldmovefoundation.org" style={{ wordBreak: "break-word" }}>info@theboldmovefoundation.org</a>
+                </p>
+              </div>
+            </div>
             
             <div className="col-md-6 col-lg-3">
               <div className="contact-card">

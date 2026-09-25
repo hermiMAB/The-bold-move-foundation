@@ -25,6 +25,7 @@ export default function Footer() {
           <div className="col-md-4">
             <h2 className="h5 fw-bold mb-3 text-warning">Get in Touch</h2>
             <p className="mb-2"><i aria-hidden="true" className="bi bi-geo-alt-fill me-2"></i>P.O. Box 62000-00200, Nairobi, Kenya</p>
+            <p className="mb-2"><i aria-hidden="true" className="bi bi-envelope-fill me-2"></i><a href="mailto:info@theboldmovefoundation.org" className="text-light text-decoration-none">info@theboldmovefoundation.org</a></p>
             <p className="mb-2"><i aria-hidden="true" className="bi bi-telephone-fill me-2"></i>+254 715 045 051</p>
             <p className="mb-3"><i aria-hidden="true" className="bi bi-telephone-fill me-2"></i>+254 719 641 539</p>
             <div className="d-flex gap-2 flex-wrap">
