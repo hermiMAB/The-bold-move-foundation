@@ -18,7 +18,11 @@ export default function Home() {
               "@type": "PostalAddress",
               "addressCountry": "Kenya"
             },
-            "sameAs": []
+            "sameAs": [
+              "https://www.facebook.com/people/The-Bold-Move-Foundation-The-BMF/61588023223602/",
+              "https://www.linkedin.com/company/the-bold-move-foundation-the-bmf",
+              "https://vm.tiktok.com/ZS9yRo1NMagwX-1wPx5/"
+            ]
           })
         }}
       />

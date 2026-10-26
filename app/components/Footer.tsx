@@ -35,6 +35,7 @@ export default function Footer() {
             <div className="mt-3 d-flex gap-3">
               <a href="https://www.facebook.com/people/The-Bold-Move-Foundation-The-BMF/61588023223602/" target="_blank" rel="noopener noreferrer" className="text-warning fs-4" aria-label="Follow us on Facebook"><i aria-hidden="true" className="bi bi-facebook"></i></a>
               <a href="https://www.linkedin.com/company/the-bold-move-foundation-the-bmf" target="_blank" rel="noopener noreferrer" className="text-warning fs-4" aria-label="Follow us on LinkedIn"><i aria-hidden="true" className="bi bi-linkedin"></i></a>
+              <a href="https://vm.tiktok.com/ZS9yRo1NMagwX-1wPx5/" target="_blank" rel="noopener noreferrer" className="text-warning fs-4" aria-label="Follow us on TikTok"><i aria-hidden="true" className="bi bi-tiktok"></i></a>
             </div>
           </div>
         </div>
